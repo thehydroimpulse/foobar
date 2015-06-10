@@ -2,18 +2,12 @@
 #define ACCELEROMETER_H
 
 #include "mbed.h"
-
-template<typename T>
-struct Axes {
-  T x;
-  T y;
-  T z;
-};
+#include <src/vec3.h>
 
 class Accelerometer {
 public:
   Accelerometer(PinName x, PinName y, PinName z);
-  Axes<int> gforce();
+  Vec3<int> gforce();
 
 private:
   AnalogIn m_x;

@@ -74,6 +74,7 @@ SRC_DIRS += $(MBED_DIR)/$(TARGET_BOARD)/$(TARGET_VENDOR)/$(TARGET_FAMILY)
 SRC_DIRS += $(MBED_DIR)/$(TARGET_BOARD)/$(TARGET_VENDOR)/$(TARGET_FAMILY)/$(TARGET_SPECIFIC)
 # app source directories (remove comment and add more files)
 SRC_DIRS += src/
+SRC_DIRS += src/drivers
 
 OUT_DIR = build
 

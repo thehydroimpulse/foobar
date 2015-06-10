@@ -1,5 +1,5 @@
 #include "mbed.h"
-#include "accelerometer.h"
+#include "drivers/accelerometer.h"
 
 DigitalOut myled(LED1);
 /* AnalogIn x(A0); */
